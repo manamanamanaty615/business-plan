@@ -1,0 +1,8 @@
+# 元資料（社内資料・アンケートの回答データ）は GitHub に上げない
+00_inbox/
+
+# OS・Office・Python の一時ファイル
+.DS_Store
+~$*
+__pycache__/
+*.pyc

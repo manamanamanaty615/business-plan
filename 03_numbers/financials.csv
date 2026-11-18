@@ -1,0 +1,29 @@
+項目,単位,FY2026 2次選考・最終選考(2027/1〜3),FY2027 MVP・シード(2027/4〜2028/3),FY2028 アーリー(2028/4〜2029/3),FY2029 シリーズA(2029/4〜2030/3),FY2030 シリーズB(2030/4〜2031/3),FY2031 シリーズC(2031/4〜2032/3),出典
+期末利用店舗数,店,0,600,24672,55028,67964,73549,年度末(3月)の値。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+うち他社媒体の顧客,店,0,0,0,4120,6266,7384,年度末(3月)の値。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+期末有料店舗数(掲載課金),店,0,0,14803,16508,0,0,年度末(3月)の値。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+期末自社MAU,万人,0,0,74,165.1,203.9,220.6,年度末(3月)の値。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+期末Indeed上の視聴者,万人,0,0,0,82.5,203.9,220.6,年度末(3月)の値。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+期末人員,人,5,20,61,81,90,97,年度末(3月)の値。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+採用決定数(自社・Indeed経由),件,0,0,3222,22745,45339,57810,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+新規店舗数,店,0,600,29265,54789,50047,48128,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+解約店舗数,店,0,0,5193,24433,37110,42543,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+新規獲得MAU,万人,0,0,95.3,237.7,261.5,272,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+売上_掲載課金,百万円,0,0,747.4,2621.5,1201.9,0,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+売上_クリック課金,百万円,0,0,0,1254.9,4764.6,6937.2,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+売上合計,百万円,0,0,747.4,3876.3,5966.4,6937.2,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+うち他社媒体の顧客の売上,百万円,0,0,0,220.9,512.2,673.8,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+人件費,百万円,17.5,247,539.1,903.1,1022.8,1122.9,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+求職者獲得費,百万円,0,0,219.1,304.2,334.7,348.2,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+店舗獲得費,百万円,0,0,234.1,556.8,516.5,499.9,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+SNS広告費,百万円,0,6,6,6,6,6,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+開発費(外注+SaaS),百万円,0.2,198.5,864,932,439,627,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+動画配信・CDN費,百万円,0,0,4.3,30.3,60.5,77.1,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+AI処理費(審査+編集),百万円,0,0.1,4.4,17.9,26.1,29.5,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+IndeedPLUS配信基盤利用料,百万円,0,0,0,251,952.9,1387.4,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+間接費配賦,百万円,3.4,40.1,83.9,138.5,156.4,171.4,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+費用計,百万円,21.1,491.7,1954.9,3139.8,3514.7,4269.5,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+営業利益,百万円,-21.1,-491.7,-1207.4,736.5,2451.7,2667.7,年度の合計。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
+年度末の売上(年換算),百万円,0,0,2131.6,5051.5,6606.1,7149,年度末(3月)の月次売上×12(参考)
+年度末の営業利益(年換算),百万円,-84.5,-664.9,-569,1577.3,2694.8,2833.3,同上
+累積損益(年度末),百万円,-21.1,-512.8,-1720.2,-983.7,1468,4135.8,月次の営業利益の累計(2027/1から)。financials_monthly.csv(model/finmodel.py)から集計。前提は assumptions.md
